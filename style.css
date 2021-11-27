@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    
+    color: white;
+}
+
+body {
+    background-color: black;
+    background-image: url('cocktail.png');
+    background-position: right bottom;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+body h3 {
+    color: rgb(161, 161, 4);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    text-shadow: 1px 1px 7px white;
+    margin: 0px;
+}
+
+header h2 {
+    margin: 0px;
+}
+
+main {
+    text-align: center;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+main p img {
+    width: 15%;
+}
+article ul {
+    text-align: left;
+    columns: 2;
+}
