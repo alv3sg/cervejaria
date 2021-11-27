@@ -42,4 +42,6 @@ main p img {
 article ul {
     text-align: left;
     columns: 2;
+    -moz-column-width: 500px;
+    -webkit-column-width: 500px;
 }
