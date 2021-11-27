@@ -40,7 +40,9 @@ main p img {
     width: 15%;
 }
 article ul {
+    min-width: 500px;
     text-align: left;
     columns: 2;
+    column-width: 240px;
     
 }
