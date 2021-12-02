@@ -2,58 +2,65 @@
 
 @font-face {
     font-family: 'cervejaria';
-    src: url('CarnokyType - Zin Serif Demo.otf') format('opentype');
+    src: url('fonte/CarnokyType - Zin Serif Demo.otf') format('opentype');
 }
-
-:root {
-    --font-padrao: 'cervejaria', sans-serif;
-}
-* {
-    
-    color: white;
-    
-}
-
 body {
-    background-color: black;
-    background-image: url('cocktail.png');
-    background-position: right bottom;
-    background-size: 30%;
-    background-repeat: no-repeat;
+    background-color: #323232;
+    
 }
 
+body h1 {
+    color: white;
+}
+body h2 {
+    color: #AA8432;
+}
 body h3 {
-    color: rgb(161, 161, 4);
+    color: #AA8432;
 }
 
 header {
     text-align: center;
-}
-
-header h1 {
-    text-shadow: 1px 1px 3.5px rgb(241, 198, 5);
-    margin: 0px;
-    font-family: var(--font-padrao);
-}
-
-header h2 {
-    margin: 0px;
-    font-family: var(--font-padrao);
-}
-
-main {
-    text-align: center;
-    min-width: 500px;
-    max-width: 1000px;
-    margin: auto;
-}
-main p img {
-    width: 15%;
-}
-article ul {
-    min-width: 500px;
-    text-align: left;
-    columns: 2;
-    column-width: 240px;
     
 }
+header p {
+    font-family: 'cervejaria';
+    color: white;
+    
+}
+header img{
+    padding: 0px 10px;
+}
+header picture img{
+    max-width: 20%;
+    max-height: 20%;
+    padding: 10px;
+}
+div.menu {
+    
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+div.menu h1 {
+    text-align: center;
+}
+div.menu ul{
+    margin: center;
+    columns: 2;
+    list-style-position: inside;
+}
+main picture{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    
+}
+main picture img{
+   
+    height: 156.5px;
+    width: 156.5px;
+    
+}
+
+
