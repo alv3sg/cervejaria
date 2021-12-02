@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'cervejaria';
+    src: url('CarnokyType - Zin Serif Demo.otf') format('opentype');
+}
+
+:root {
+    --font-padrao: 'cervejaria', sans-serif;
+}
 * {
     
     color: white;
+    
 }
 
 body {
@@ -22,12 +31,14 @@ header {
 }
 
 header h1 {
-    text-shadow: 1px 1px 7px white;
+    text-shadow: 1px 1px 3.5px rgb(241, 198, 5);
     margin: 0px;
+    font-family: var(--font-padrao);
 }
 
 header h2 {
     margin: 0px;
+    font-family: var(--font-padrao);
 }
 
 main {
