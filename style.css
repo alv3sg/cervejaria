@@ -5,62 +5,68 @@
     src: url('fonte/CarnokyType - Zin Serif Demo.otf') format('opentype');
 }
 body {
-    background-color: #323232;
-    
+    background-color: #323232;    
 }
 
 body h1 {
     color: white;
 }
+
 body h2 {
     color: #AA8432;
 }
+
 body h3 {
     color: #AA8432;
 }
 
 header {
-    text-align: center;
-    
+    text-align: center;    
 }
+
 header p {
     font-family: 'cervejaria';
-    color: white;
-    
+    color: white;    
 }
+
 header img{
     padding: 0px 10px;
 }
+
 header picture img{
     max-width: 20%;
     max-height: 20%;
     padding: 10px;
 }
-div.menu {
+
+main {
     
-    width: 500px;
-    height: 500px;
-    margin: auto;
+    margin: auto;    
 }
+
+/*div.menu {    
+    width: 500px;
+    height: 600px;    
+}*/
+
 div.menu h1 {
     text-align: center;
 }
 div.menu ul{
-    margin: center;
+    background-color: white;
     columns: 2;
     list-style-position: inside;
+    height: auto;
 }
 main picture{
     display: inline-block;
     text-align: center;
-    width: 100%;
-    
+    width: 100%;    
 }
-main picture img{
-   
+
+main picture img{   
     height: 156.5px;
-    width: 156.5px;
-    
+    width: 156.5px;    
 }
 
 
