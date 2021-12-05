@@ -32,6 +32,7 @@ main {
     color: white;
 }
 div.prato {
+    position: relative;
     margin: auto;
     background-repeat: no-repeat;
     background-position: center center;
@@ -43,7 +44,11 @@ div.prato h2 {
     color: #AA8432;
     font-weight: 500;
     text-shadow: 2px 2px 0px black;
-    padding-top: 94px;
+    /*padding-top: 94px;*/
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
 }
 main h3 {
     color: #AA8432;
