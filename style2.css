@@ -12,6 +12,7 @@ body{
     background-repeat: no-repeat;
     background-size: 25%;
     background-attachment: fixed;
+    margin: 0px;
 }
 header{
     text-align: center;
@@ -47,7 +48,6 @@ div.prato h2 {
 main h3 {
     color: #AA8432;
 }
-
 div#entrada {
     background-image: url('imagens/petiscoor.png');
     background-size: cover;
@@ -67,4 +67,10 @@ div#tosta {
     background-image: url('imagens/tosta.jpg');
     background-size: cover;
     width: 50%;    
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: auto;
 }
