@@ -37,6 +37,7 @@ main {
 }
 section {    
     min-width: 50%;
+    margin: auto;
 }
 section#food {
     float: left;    
