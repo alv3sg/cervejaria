@@ -60,16 +60,16 @@ div p#dentro {
     text-shadow: 2px 2px 0px black;
 }
 div#ep {
-    background-image: url('imagens/petiscoor.png');    
+    background-image: url(imagens/fracesinha.jpg);    
 }
 div#tb {
-    background-image: url('imagens/tabua.jpg');    
+    background-image: url(imagens/hamburguer.jpg);    
 }
 div#sld {
-    background-image: url('imagens/salada.jpg');    
+    background-image: url(imagens/petisco.jpg);    
 }
 div#tosta {
-    background-image: url('imagens/tosta.jpg');    
+    background-image: url('imagens/panqueca.jpg');    
 }
 
 div.itens {
