@@ -35,8 +35,7 @@ main {
     text-align: center;
     height: 450vh;
 }
-section {
-    
+section {    
     min-width: 50%;
 }
 section#food {
@@ -48,11 +47,25 @@ section#bebida {
 div.menu {
     margin: auto;    
     height: 20vh;
-    width: 70vh;
+    width: 60vh;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: 100%;
     position: relative;    
+}
+div p#dentro {   
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 42vh;
+    padding: 9vh;
+    margin: 0%;
+    font-family: 'cervejaria';
+    color: #AA8432;
+    font-weight: 500;
+    text-shadow: 2px 2px 0px black;
 }
 div#ep {
     background-image: url('imagens/petiscoor.png');    
@@ -66,20 +79,7 @@ div#sld {
 div#tosta {
     background-image: url('imagens/tosta.jpg');    
 }
-div p#dentro {   
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    background-color: rgba(0, 0, 0, 0.39);
-    width: 52vh;
-    padding: 9vh;
-    margin: 0%;
-    font-family: 'cervejaria';
-    color: #AA8432;
-    font-weight: 500;
-    text-shadow: 2px 2px 0px black;
-}
+
 div.itens {
     overflow: auto;
     height: 20vh;
