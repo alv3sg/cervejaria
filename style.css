@@ -37,7 +37,7 @@ main {
 }
 section {    
     min-width: 50%;
-    margin: auto;
+    
 }
 section#food {
     float: left;    
@@ -47,8 +47,8 @@ section#bebida {
 }
 div.menu {
     margin: auto;    
-    height: 20vh;
-    width: 60vh;
+    height: 21vh;
+    width: 48vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -60,7 +60,7 @@ div p#dentro {
     top: 50%;
     left: 50%;
     background-color: rgba(0, 0, 0, 0.39);
-    width: 42vh;
+    width: 30vh;
     padding: 9vh;
     margin: 0%;
     font-family: 'cervejaria';
@@ -84,7 +84,7 @@ div#tosta {
 div.itens {
     overflow: auto;
     height: 20vh;
-    width: 70vh;
+    width: 28vh;
     margin: auto;
     color: white;    
 }
