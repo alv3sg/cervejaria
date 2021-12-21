@@ -1,72 +1,86 @@
 @charset "UTF-8";
-
 @font-face {
     font-family: 'cervejaria';
     src: url('fonte/CarnokyType - Zin Serif Demo.otf') format('opentype');
 }
 body {
-    background-color: #323232;    
+    height: 98vh;
+    margin: 0px;
+    background-color: #323232;
+    background-image: url('imagens/biblioteca.jpg');     
+    background-position: center left;     
+    background-size: 40vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
 body h1 {
-    color: white;
-}
-
-body h2 {
+    font-family: 'cervejaria';
     color: #AA8432;
+    font-weight: 500;
+    text-shadow: 2px 2px 0px black;
 }
-
-body h3 {
-    color: #AA8432;
-}
-
 header {
+    height: 40vh;
+    background-image: url('imagens/biblioteca.jpg');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top center;    
+}
+nav {
+    text-align: center;
+    margin: 10px;
+}
+nav a {
+    color: black;
+}
+main {    
     text-align: center;    
 }
-
-header p {
+div.menu {
+    margin: auto;    
+    height: 20vh;
+    width: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;    
+}
+div#ep {
+    background-image: url('imagens/petiscoor.png');    
+}
+div#tb {
+    background-image: url('imagens/tabua.jpg');    
+}
+div#sld {
+    background-image: url('imagens/salada.jpg');    
+}
+div#tosta {
+    background-image: url('imagens/tosta.jpg');    
+}
+div p#dentro {   
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 52vh;
+    padding: 9vh;
+    margin: 0%;
     font-family: 'cervejaria';
+    color: #AA8432;
+    font-weight: 500;
+    text-shadow: 2px 2px 0px black;
+}
+div.itens {
+    overflow: auto;
+    height: 20vh;
+    width: 70vh;
+    margin: auto;
     color: white;    
 }
-
-header img{
-    padding: 0px 10px;
+div.itens h3 {
+    color: #AA8432;
 }
-
-header picture img{
-    max-width: 20%;
-    max-height: 20%;
-    padding: 10px;
-}
-
-main {
-    
-    margin: auto;    
-}
-
-/*div.menu {    
-    width: 500px;
-    height: 600px;    
-}*/
-
-div.menu h1 {
+footer {
     text-align: center;
 }
-div.menu ul{
-    background-color: white;
-    columns: 2;
-    list-style-position: inside;
-    height: auto;
-}
-main picture{
-    display: inline-block;
-    text-align: center;
-    width: 100%;    
-}
-
-main picture img{   
-    height: 156.5px;
-    width: 156.5px;    
-}
-
-
