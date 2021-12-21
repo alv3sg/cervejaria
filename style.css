@@ -3,8 +3,12 @@
     font-family: 'cervejaria';
     src: url('fonte/CarnokyType - Zin Serif Demo.otf') format('opentype');
 }
+:root {
+    margin: 0px;
+    pad: 0px;
+}
 body {
-    height: 98vh;
+    height: 100vh;
     margin: 0px;
     background-color: #323232;
     background-image: url('imagens/biblioteca.jpg');     
@@ -13,16 +17,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-body h1 {
-    font-family: 'cervejaria';
-    color: #AA8432;
-    font-weight: 500;
-    text-shadow: 2px 2px 0px black;
-}
 header {
     height: 40vh;
     background-image: url('imagens/biblioteca.jpg');
-    background-size: 30%;
+    background-size: 50vh;
     background-repeat: no-repeat;
     background-position: top center;    
 }
@@ -34,7 +32,18 @@ nav a {
     color: black;
 }
 main {    
-    text-align: center;    
+    text-align: center;
+    height: 450vh;
+}
+section {
+    
+    min-width: 50%;
+}
+section#food {
+    float: left;    
+}
+section#bebida {
+    float: right;    
 }
 div.menu {
     margin: auto;    
