@@ -3,85 +3,73 @@
     font-family: 'cervejaria';
     src: url('fonte/CarnokyType - Zin Serif Demo.otf') format('opentype');
 }
-:root {
-    margin: 0px;
-    pad: 0px;
-}
 body {
-    height: 100vh;
-    margin: 0px;
     background-color: #323232;
-    background-image: url('imagens/biblioteca.jpg');     
-    background-position: center left;     
-    background-size: 40vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-header {
-    height: 40vh;
-    background-image: url('imagens/biblioteca.jpg');
-    background-size: 50vh;
-    background-repeat: no-repeat;
-    background-position: top center;    
-}
-nav {
-    text-align: center;
-    margin: 10px;
-}
-nav a {
-    color: black;
-}
-main {    
+    margin: 0px;
+    padding: 0px;
     text-align: center;    
 }
-
-div.menu {
-    margin: auto;    
-    height: 25vh;
-    width: 50vh;
+header {
+    height: 200px;
+    margin: 0px;
+    text-align: center;    
+    background-image: url('imagens/biblioteca.jpg');
+    background-size: 300px;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100%;
-    position: relative;    
+    background-attachment: fixed;
+    background-position: top;    
+    background-color: #323232;
 }
-div p#dentro {   
+nav {
+    font-family: cervejaria, serif;   
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+.img{
+    height: 250px;
+    width: 300px;    
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-position: center;  
+    margin: auto;
+    text-align: center;
+    position: relative;       
+}
+#pratoPrincipal {
+    background-image: url('imagens/fracesinha.jpg'); 
+}
+#panqueca {
+    background-image: url('imagens/panqueca.jpg'); 
+}
+#cocktail {
+    background-image: url('imagens/drink.jpg'); 
+}
+#cerveja {
+    background-image: url('imagens/cerveja.jpg'); 
+}
+h2{
+    color: #A68630;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
-    left: 50%;
-    background-color: rgba(0, 0, 0, 0.39);
-    height: 7vh;
-    width: 32vh;
-    padding: 9vh;
-    margin: 0%;
-    font-family: 'cervejaria';
-    color: #AA8432;
-    font-weight: 500;
-    text-shadow: 2px 2px 0px black;
+    left: 50%;    
+    font-family: cervejaria;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
-div#ep {
-    background-image: url(imagens/fracesinha.jpg);    
+p {
+    color: #A68630;
 }
-div#tb {
-    background-image: url(imagens/hamburguer.jpg);    
-}
-div#sld {
-    background-image: url(imagens/petisco.jpg);    
-}
-div#tosta {
-    background-image: url('imagens/panqueca.jpg');    
-}
-
-div.itens {
-    overflow: auto;
-    height: 20vh;
-    width: 50vh;
+.menu{    
+    text-shadow: 1px 1px 0px black;
+    
     margin: auto;
-    color: white;    
-}
-div.itens h3 {
-    color: #AA8432;
-}
-footer {
-    text-align: center;
+    text-align: center;  
+    padding: 5px;
 }
